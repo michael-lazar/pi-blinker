@@ -13,7 +13,7 @@ It's a nice little program, and I like it
 - 2 small wires
 - 3 inches of electrical tape
 
-<p align="center"><img alt="Schematics" src="schematics.png"/><br><i>Do you really need a schematic for this?</i></p>
+<p align="left"><img alt="Schematics" src="schematics.png"/><br><i>Do you really need a schematic for this?</i></p>
 
 ## Installation
 
