@@ -13,6 +13,8 @@ It's a nice little script, and I like it
 - 2 small wires
 - 3 inches of electrical tape
 
+<p align="left"><img alt="Schematics" src="schematics.png"/></p>
+
 ## Installation
 
 ```bash
