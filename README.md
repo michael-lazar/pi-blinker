@@ -8,12 +8,12 @@ It's a nice little script, and I like it
 
 ## Hardware
 
+<p align="left"><img alt="Schematics" src="schematics.png"/></p>
+
 - 1 blue LED
 - 1 resistor, 560 ohm
 - 2 small wires
 - 3 inches of electrical tape
-
-<p align="left"><img alt="Schematics" src="schematics.png"/></p>
 
 ## Installation
 
