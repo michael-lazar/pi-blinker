@@ -2,7 +2,9 @@
 
 This is a little script that runs on my Raspberry Pi and blinks a blue LED whenever I get a star on github.
 
-It's a nice script, and I like it.
+<p align="left"><img alt="Demo" src="demo.gif"/></p>
+
+It's a nice script, and I like it
 
 ## Hardware
 
