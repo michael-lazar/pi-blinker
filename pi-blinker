@@ -18,12 +18,13 @@ except ImportError:
     sys.exit(1)
 
 _logger = logging.getLogger('pi-blink')
-logging.basicConfig(level=logging.INFO)
+logging.basicConfig(level=logging.DEBUG)
 
 CONFIG = {
-    'api_url': 'https://api.github.com/users/michael-lazar/repos',
     'count_file': '/usr/local/var/pi-blinker/count',
-    'pin': 7   
+    'api_url': 'https://api.github.com/users/michael-lazar/repos',
+    'auth': ('lazar.michael22@gmail.com', 'password'),
+    'pin': 7 
 }
 
 # Number of stargazers
@@ -53,7 +54,7 @@ GPIO.setup(CONFIG['pin'], GPIO.OUT, initial=GPIO.LOW)
 _logger.info('Starting main loop')
 while True:
     try:
-        resp = requests.get(CONFIG['api_url'])
+        resp = requests.get(CONFIG['api_url'], auth=CONFIG['auth'])
         data = resp.json()
         new_count = sum(repo['stargazers_count'] for repo in data)
         
