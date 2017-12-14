@@ -1,0 +1,11 @@
+[Unit]
+Description=Blink whenever you get a star on github
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=5
+ExecStart=/usr/local/bin/pi-blinker
+
+[Install]
+WantedBy=default.target
