@@ -1,4 +1,4 @@
-# pi-blinker
+# Pi blinker
 
 This is a little script that runs on my Raspberry Pi and blinks a blue LED whenever I get a star on github.
 
