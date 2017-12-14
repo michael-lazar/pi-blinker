@@ -15,5 +15,10 @@ It's a nice script, and I like it.
 
 ```bash
 $ git clone https://github.com/michael-lazar/pi-blinker.git
+```
+
+Open ``pi-blinker/pi-blinker`` and add your github profile and credentials, then run
+
+```bash
 $ sudo pi-blinker/install.sh
 ```
