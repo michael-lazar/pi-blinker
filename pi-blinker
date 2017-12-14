@@ -67,9 +67,9 @@ while True:
                 GPIO.output(CONFIG['pin'], GPIO.LOW)
                 time.sleep(1)
         count = new_count
-        time.sleep(5)
     except KeyboardInterrupt:
         break
     except Exception as e:
         _logger.exception(e)
-
+    finally:
+        time.sleep(5)
