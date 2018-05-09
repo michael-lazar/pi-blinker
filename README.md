@@ -15,7 +15,7 @@ It's a nice little script, and I enjoy it
 
 ## Schematic
 
-<p align="left"><img alt="Schematics" src="schematics.png"/><br><i>Do you really need a schematic for this?</i></p>
+<p align="left"><img alt="Schematics" src="schematics.png"/></p>
 
 ## Installation
 
