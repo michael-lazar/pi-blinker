@@ -4,7 +4,7 @@ This is a script that runs on my Raspberry Pi and blinks a blue LED whenever I g
 
 <p align="left"><img alt="Demo" src="demo.gif"/></p>
 
-It's a nice little program, and I like it
+It's a nice little script, and I enjoy it
 
 ## Hardware
 
