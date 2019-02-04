@@ -1,10 +1,8 @@
 # Pi blinker
 
-This is a script that runs on my Raspberry Pi and blinks a blue LED whenever I get a star on github
+This is a little script that runs on your Raspberry Pi and blinks a blue LED whenever you get a star on github
 
 <p align="left"><img alt="Demo" src="demo.gif"/></p>
-
-It's a nice little script, and I enjoy it
 
 ## Hardware
 
